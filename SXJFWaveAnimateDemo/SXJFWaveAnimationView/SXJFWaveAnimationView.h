@@ -86,10 +86,17 @@ typedef NS_ENUM(NSInteger,SXJFWaveCurveFluctuationPositionType) {
 
 @interface SXJFWaveAnimationView : UIView
 
-
-
-
+/**
+ ** 初始化圆形水波图形
+ ** @param frame 设置圆形frame
+ ** @param configureDict 圆形水波图形相关参数设置
+ **/
 
 - (instancetype)initWithFrame:(CGRect)frame waveConfigures:(NSDictionary *)configureDict;
+
+/**
+ * 移除水波图形
+ */
 - (void)stopRemoveWaveAnimation;
+
 @end
