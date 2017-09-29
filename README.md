@@ -111,5 +111,10 @@ typedef NS_ENUM(NSInteger,SXJFWaveCurveFluctuationPositionType) {
 
 
 #效果颜色图
+
+
+
+
+
 ![Image](https://github.com/KBvsMJ/SXJFAnimationDemo/blob/master/SXJFWaveAnimateDemo/demogif/1.gif)
 
