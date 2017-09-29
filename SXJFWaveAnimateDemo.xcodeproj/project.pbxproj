@@ -15,8 +15,8 @@
 		97043CDC1F7E219A00583399 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97043CDB1F7E219A00583399 /* main.m */; };
 		97043CE61F7E219A00583399 /* SXJFWaveAnimateDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97043CE51F7E219A00583399 /* SXJFWaveAnimateDemoTests.m */; };
 		97043CF11F7E219B00583399 /* SXJFWaveAnimateDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97043CF01F7E219B00583399 /* SXJFWaveAnimateDemoUITests.m */; };
-		97043D011F7E222800583399 /* SXJFWaveAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97043D001F7E222800583399 /* SXJFWaveAnimationView.m */; };
 		9798E8A51F7E25620003EA9F /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9798E8A41F7E25620003EA9F /* 1.gif */; };
+		9798E8A81F7E29F00003EA9F /* SXJFWaveAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9798E8A71F7E29F00003EA9F /* SXJFWaveAnimationView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,9 +53,9 @@
 		97043CEC1F7E219A00583399 /* SXJFWaveAnimateDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SXJFWaveAnimateDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97043CF01F7E219B00583399 /* SXJFWaveAnimateDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXJFWaveAnimateDemoUITests.m; sourceTree = "<group>"; };
 		97043CF21F7E219B00583399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		97043CFF1F7E222800583399 /* SXJFWaveAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXJFWaveAnimationView.h; sourceTree = "<group>"; };
-		97043D001F7E222800583399 /* SXJFWaveAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXJFWaveAnimationView.m; sourceTree = "<group>"; };
 		9798E8A41F7E25620003EA9F /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
+		9798E8A61F7E29F00003EA9F /* SXJFWaveAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXJFWaveAnimationView.h; sourceTree = "<group>"; };
+		9798E8A71F7E29F00003EA9F /* SXJFWaveAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXJFWaveAnimationView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,8 +142,8 @@
 		97043CFE1F7E21DF00583399 /* SXJFWaveAnimationView */ = {
 			isa = PBXGroup;
 			children = (
-				97043CFF1F7E222800583399 /* SXJFWaveAnimationView.h */,
-				97043D001F7E222800583399 /* SXJFWaveAnimationView.m */,
+				9798E8A61F7E29F00003EA9F /* SXJFWaveAnimationView.h */,
+				9798E8A71F7E29F00003EA9F /* SXJFWaveAnimationView.m */,
 			);
 			path = SXJFWaveAnimationView;
 			sourceTree = "<group>";
@@ -293,7 +293,7 @@
 				97043CD11F7E219900583399 /* ViewController.m in Sources */,
 				97043CDC1F7E219A00583399 /* main.m in Sources */,
 				97043CCE1F7E219900583399 /* AppDelegate.m in Sources */,
-				97043D011F7E222800583399 /* SXJFWaveAnimationView.m in Sources */,
+				9798E8A81F7E29F00003EA9F /* SXJFWaveAnimationView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
